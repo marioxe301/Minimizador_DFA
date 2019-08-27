@@ -14,6 +14,8 @@ namespace Minimizador
     {
         OpenFileDialog ofd = new OpenFileDialog();
         JFF jflapitem;
+        string filefolder;
+
         public Main()
         {
             InitializeComponent();
@@ -25,19 +27,20 @@ namespace Minimizador
             if(result == DialogResult.OK)
             {
                 textBox1.Text = ofd.FileName;
+                System.IO.FileInfo fInfo = new System.IO.FileInfo(ofd.FileName);
+                filefolder = fInfo.DirectoryName;
+                label1.Text = "Estado: Cargado Exitosamente";
             }
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if(textBox1.Text.Length == 0)
-            {
-                label1.Text = "Estado: No se ha selecionado un archivo";
-            }
-            else
-            {
+           
                 jflapitem = new JFF(textBox1.Text);
-            }
+
+                
+                jflapitem.minimizarDFA("");
+           
         }
     }
 }

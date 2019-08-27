@@ -26,7 +26,7 @@ namespace Minimizador
         public string name { get; set; }
         public double x { get; set; }
         public double y { get; set; }
-        List<Transiciones> transiciones { get; set; }
+        public List<Transiciones> transiciones { get; set; }
         public int position { get; set; }
         public bool inital { get; set; }
         public bool final { get; set; }
