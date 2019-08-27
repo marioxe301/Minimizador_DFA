@@ -1,0 +1,10 @@
+C:\Users\MGFE\source\repos\Minimizador\Minimizador\bin\Debug\Minimizador.exe.config
+C:\Users\MGFE\source\repos\Minimizador\Minimizador\bin\Debug\Minimizador.exe
+C:\Users\MGFE\source\repos\Minimizador\Minimizador\bin\Debug\Minimizador.pdb
+C:\Users\MGFE\source\repos\Minimizador\Minimizador\obj\Debug\Minimizador.csprojAssemblyReference.cache
+C:\Users\MGFE\source\repos\Minimizador\Minimizador\obj\Debug\Minimizador.Properties.Resources.resources
+C:\Users\MGFE\source\repos\Minimizador\Minimizador\obj\Debug\Minimizador.csproj.GenerateResource.cache
+C:\Users\MGFE\source\repos\Minimizador\Minimizador\obj\Debug\Minimizador.csproj.CoreCompileInputs.cache
+C:\Users\MGFE\source\repos\Minimizador\Minimizador\obj\Debug\Minimizador.exe
+C:\Users\MGFE\source\repos\Minimizador\Minimizador\obj\Debug\Minimizador.pdb
+C:\Users\MGFE\source\repos\Minimizador\Minimizador\obj\Debug\Minimizador.Main.resources
