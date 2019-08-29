@@ -6,6 +6,29 @@ using System.Threading.Tasks;
 
 namespace Minimizador
 {
+    public struct Pares
+    {
+        public string a { get; set; }
+        public string b { get; set; }
+
+        public Pares(string a, string b)
+        {
+            this.a = a;
+            this.b = b;
+        }
+    }
+
+    public struct Puntos
+    {
+        public int p1 { get; set; }
+        public int p2 { get; set; }
+
+        public Puntos(int p1,int p2)
+        {
+            this.p1 = p1;
+            this.p2 = p2;
+        }
+    }
     public struct Transiciones
     {
         public int to { get; set; }

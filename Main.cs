@@ -35,11 +35,16 @@ namespace Minimizador
 
         private void button2_Click(object sender, EventArgs e)
         {
-           
-                jflapitem = new JFF(textBox1.Text);
-
-                
-                jflapitem.minimizarDFA("");
+           if(textBox1.Text.Length != 0)
+           {
+                jflapitem = new JFF(textBox1.Text);               
+                //jflapitem.minimizarDFA("");
+                jflapitem.GenerarXML(filefolder, "nuevoDFA.jff");
+            }
+            else
+            {
+                label1.Text = "Estado: Ruta No Especificada";
+            }
            
         }
     }
